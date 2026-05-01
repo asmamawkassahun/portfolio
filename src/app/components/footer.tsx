@@ -119,10 +119,10 @@ const Footer = () => {
             <p className="text-gray-600 dark:text-gray-400 text-sm">
               © {currentYear} Asmamaw Kassahun. All rights reserved.
             </p>
-            <p className="text-gray-400 text-sm flex items-center">
+            {/* <p className="text-gray-400 text-sm flex items-center">
               Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> using
               Next.js, TypeScript & Tailwind CSS
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

@@ -10,10 +10,9 @@ const Hero = () => {
   const [mounted, setMounted] = useState(false)
   const [currentSkill, setCurrentSkill] = useState(0)
   const skills = [
-    "React Developer",
+    "SpringBoot Developer",
     "Next.js Expert",
     "Full-Stack Engineer",
-    "TypeScript Specialist",
     "UI/UX Enthusiast"
   ]
 
@@ -51,7 +50,7 @@ const Hero = () => {
   }
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 -z-10">
         {/* Gradient Mesh */}
@@ -245,32 +244,7 @@ const Hero = () => {
                 repeat: Infinity,
               }}
             />
-            {/* Floating Tech Icons */}
-            <motion.div
-              className="absolute -top-4 -right-4 bg-white/90 dark:bg-slate-800/80 backdrop-blur-sm rounded-full p-4 border border-blue-500/30"
-              animate={{
-                y: [0, -10, 0],
-              }}
-              transition={{
-                duration: 3,
-                repeat: Infinity,
-              }}
-            >
-              <Code className="w-6 h-6 text-blue-400" />
-            </motion.div>
-            <motion.div
-              className="absolute -bottom-4 -left-4 bg-white/90 dark:bg-slate-800/80 backdrop-blur-sm rounded-full p-4 border border-green-500/30"
-              animate={{
-                y: [0, -10, 0],
-              }}
-              transition={{
-                duration: 3,
-                repeat: Infinity,
-                delay: 1,
-              }}
-            >
-              <Sparkles className="w-6 h-6 text-green-400" />
-            </motion.div>
+
           </div>
         </motion.div>
       </motion.div>
