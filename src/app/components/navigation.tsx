@@ -61,13 +61,13 @@ const Navigation = () => {
       {/* Scroll Progress Indicator */}
       <div className="fixed top-0 left-0 right-0 h-1 bg-slate-200/50 dark:bg-slate-900/50 z-50">
         <div
-          className="h-full bg-gradient-to-r from-cyan-500 via-emerald-500 to-cyan-500 transition-all duration-150"
+          className="h-full w-full bg-gradient-to-r from-cyan-500 via-emerald-500 to-cyan-500 transition-all duration-150"
           style={{ width: `${scrollProgress}%` }}
         />
       </div>
       
       <nav
-        className={`fixed top-1 w-full z-40 transition-all duration-300 ${
+        className={`fixed top-1 left-0 right-0 z-40 transition-all duration-300 ${
           scrolled ? "bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-cyan-500/20 shadow-sm" : "bg-transparent"
         }`}
       >
@@ -109,7 +109,7 @@ const Navigation = () => {
 
           {/* Mobile Navigation Menu */}
           {isOpen && (
-            <div className="md:hidden bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm rounded-lg mt-2 p-4 border border-slate-200 dark:border-slate-700">
+            <div className="md:hidden w-full bg-white/95 dark:bg-slate-800/95 backdrop-blur-sm rounded-lg mt-2 p-4 border border-slate-200 dark:border-slate-700">
               {navItems.map((item) => (
                 <button
                   key={item.id}

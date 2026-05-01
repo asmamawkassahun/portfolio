@@ -126,7 +126,7 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <div className="space-y-6">
-              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
+              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-left">
               I’m a Computer Science graduate passionate about crafting meaningful digital experiences. What started as curiosity about how websites work has grown into a drive to build applications that are intuitive, impactful, and user-centered.              </p>
               
             </div>

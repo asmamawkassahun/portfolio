@@ -17,6 +17,11 @@
   }
 }
 
+/* Prevent horizontal scroll on small screens caused by fixed/full-width elements */
+html, body {
+  overflow-x: hidden;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
