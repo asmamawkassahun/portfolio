@@ -72,8 +72,8 @@ const Navigation = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="text-2xl font-bold bg-gradient-to-r from-cyan-500 via-emerald-500 to-cyan-500 bg-clip-text text-transparent">
+          <div className="flex md:justify-between justify-end items-center py-4">
+            <div className="text-2xl hidden md:flex font-bold bg-gradient-to-r from-cyan-500 via-emerald-500 to-cyan-500 bg-clip-text text-transparent">
               Asmamaw Kassahun
             </div>
 
@@ -99,7 +99,7 @@ const Navigation = () => {
             </div>
 
             {/* Mobile Navigation Toggle */}
-            <div className="md:hidden flex items-center gap-2">
+            <div className="md:hidden flex items-center  gap-2">
               <ThemeToggle />
               <Button variant="ghost" size="icon" className="text-gray-700 dark:text-gray-300" onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? <X size={24} /> : <Menu size={24} />}
