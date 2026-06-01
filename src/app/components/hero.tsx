@@ -183,7 +183,7 @@ const Hero = () => {
             variants={itemVariants}
           >
             {[
-              { Icon: Github, href: "https://github.com/Asmamaw-cloud", label: "GitHub" },
+              { Icon: Github, href: "https://github.com/asmamawkassahun", label: "GitHub" },
               { Icon: Linkedin, href: "https://linkedin.com/in/asmamaw-kassahun-007724374", label: "LinkedIn" },
               { Icon: Twitter, href: "https://x.com/AsmamawKassahu4", label: "Twitter" },
               { Icon: SiUpwork, href: "https://www.upwork.com/freelancers/~0175e884586c28ac2d", label: "Upwork" },
